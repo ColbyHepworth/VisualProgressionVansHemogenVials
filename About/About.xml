@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Visual Progression: Van's Hemogen Vials</name>
+  <author>Groovy</author>
+  <packageId>groovy.visualprogression.vanshemogenvials</packageId>
+  <modVersion>1.0</modVersion>
+  <url>https://github.com/ColbyHepworth/VisualProgressionVansHemogenVials</url>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Hemogen packs made before your colony reaches the industrial age are Van's hemogen vials. Packs made after are the normal blood bags, named "hemogen pack" again. Old vials keep their look until they're used, so the change happens slowly. With Vanilla Races Expanded - Sanguophage, its animal, corpse and sanguophage packs change the same way.
+
+Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one, your colony stays at the age it starts in, so its packs never change.
+
+This mod adds no item art. It uses Van's images and the game's own.
+
+Safe to add to an existing save: Packs already made keep their look, and packs made after get the look of your colony's age.
+
+Safe to remove: Every pack goes back to Van's vials.
+
+Preview art: SirVan's Van's Retexture : Hemogen Vials (CC BY 4.0), RimWorld and Vanilla Races Expanded - Sanguophage.</description>
+  <modDependencies>
+    <li>
+      <packageId>groovy.visualprogression.framework</packageId>
+      <displayName>Visual Progression Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3834891951</steamWorkshopUrl>
+      <downloadUrl>https://github.com/ColbyHepworth/VisualProgressionFramework</downloadUrl>
+    </li>
+    <li>
+      <packageId>sirvan.hemogentexture</packageId>
+      <displayName>Van's Retexture : Hemogen Vials</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3453224032</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>groovy.visualprogression.framework</li>
+    <li>sirvan.hemogentexture</li>
+    <li>vanillaracesexpanded.sanguophage</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hemogen packs are Van's vials up to the medieval age and the original blood bags from the industrial age on. -->
+<Defs>
+
+  <!-- Hemogen pack -->
+  <ThingStyleDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>VPHV_HemogenPack_Vial</defName>
+    <overrideLabel>hemogen vial</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Things/Item/Resource/HemogenPack</texPath>
+      <fromMod>sirvan.hemogentexture</fromMod>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>VPHV_HemogenPack_Pack</defName>
+    <overrideLabel>hemogen pack</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Things/Item/Resource/HemogenPack</texPath>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>VPHV_HemogenPack</defName>
+    <item>HemogenPack</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPHV_HemogenPack_Vial</style></li>
+      <li><upToAge>Archotech</upToAge><style>VPHV_HemogenPack_Pack</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vanilla Races Expanded - Sanguophage: animal hemogen pack -->
+  <ThingStyleDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackAnimal_Vial</defName>
+    <overrideLabel>hemogen vial (animal)</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Item/HemogenPacks/HemogenAnimalPack</texPath>
+      <fromMod>sirvan.hemogentexture</fromMod>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackAnimal_Pack</defName>
+    <overrideLabel>hemogen pack (animal)</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Item/HemogenPacks/HemogenAnimalPack</texPath>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackAnimal</defName>
+    <item>VRE_HemogenPack_Animal</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPHV_HemogenPackAnimal_Vial</style></li>
+      <li><upToAge>Archotech</upToAge><style>VPHV_HemogenPackAnimal_Pack</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vanilla Races Expanded - Sanguophage: corpse hemogen pack -->
+  <ThingStyleDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackCorpse_Vial</defName>
+    <overrideLabel>hemogen vial (corpse)</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Item/HemogenPacks/HemogenCorpsePack</texPath>
+      <fromMod>sirvan.hemogentexture</fromMod>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackCorpse_Pack</defName>
+    <overrideLabel>hemogen pack (corpse)</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Item/HemogenPacks/HemogenCorpsePack</texPath>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackCorpse</defName>
+    <item>VRE_HemogenPack_Corpse</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPHV_HemogenPackCorpse_Vial</style></li>
+      <li><upToAge>Archotech</upToAge><style>VPHV_HemogenPackCorpse_Pack</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+  <!-- Vanilla Races Expanded - Sanguophage: sanguophage hemogen pack -->
+  <ThingStyleDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackSanguophage_Vial</defName>
+    <overrideLabel>hemogen vial (sanguophage)</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Item/HemogenPacks/HemogenSanguophagePack</texPath>
+      <fromMod>sirvan.hemogentexture</fromMod>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackSanguophage_Pack</defName>
+    <overrideLabel>hemogen pack (sanguophage)</overrideLabel>
+    <graphicData Class="VisualProgression.GraphicData_FromMod">
+      <texPath>Item/HemogenPacks/HemogenSanguophagePack</texPath>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <VisualProgression.ItemLooksDef MayRequire="vanillaracesexpanded.sanguophage">
+    <defName>VPHV_HemogenPackSanguophage</defName>
+    <item>VRE_HemogenPack_Sanguophage</item>
+    <looks>
+      <li><upToAge>Medieval</upToAge><style>VPHV_HemogenPackSanguophage_Vial</style></li>
+      <li><upToAge>Archotech</upToAge><style>VPHV_HemogenPackSanguophage_Pack</style></li>
+    </looks>
+  </VisualProgression.ItemLooksDef>
+
+</Defs>

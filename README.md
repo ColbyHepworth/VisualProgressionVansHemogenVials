@@ -5,6 +5,8 @@ made after are the normal blood bags, named "hemogen pack" again. Old vials keep
 change happens slowly. With Vanilla Races Expanded - Sanguophage, its animal, corpse and sanguophage packs change the
 same way.
 
+[Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3836592165)
+
 Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one,
 your colony stays at the age it starts in, so its packs never change.
 

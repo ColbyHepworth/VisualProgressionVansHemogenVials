@@ -18,8 +18,8 @@ come from Van's images. The blood bags come from whichever mod draws them, the g
 them, but never Van's vials.
 
 Packs from hemogen extraction, VRE's extraction jobs and anything else your colony makes get your colony's age. Packs
-that traders sell, and that other factions' pawns carry, follow that faction's age. Packs found on the map, quest
-rewards and raid loot keep the normal art, which with Van's mod is the vial.
+that traders sell, that other factions' pawns carry, and that lie in another faction's base follow that faction's
+age. Other packs found on the map, quest rewards and raid loot keep the normal art, which with Van's mod is the vial.
 
 The name follows the look: "hemogen vial" or "hemogen pack". Storage filters, bills and info cards name the kind of
 pack after your colony's current age. The description stays Van's text about the glass vial, since a look can't change

@@ -40,7 +40,7 @@ is optional.
 
 ## License
 
-MIT. The preview image shows art by SirVan from
+MIT. The preview and the images in `Workshop/` show art by SirVan from
 [Van's Retexture : Hemogen Vials](https://steamcommunity.com/sharedfiles/filedetails/?id=3453224032) (CC BY 4.0), and
 art from RimWorld and Vanilla Races Expanded - Sanguophage. It belongs to their authors and isn't covered by this
 license.

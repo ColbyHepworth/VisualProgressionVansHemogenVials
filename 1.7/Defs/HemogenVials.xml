@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Hemogen packs are Van's vials up to the medieval age and the original blood bags from the industrial age on. -->
+<!-- Van's vials up to the medieval age, and the blood bags or a retexture of them from the industrial age on. -->
 <Defs>
 
   <!-- Hemogen pack -->
@@ -18,6 +18,9 @@
     <overrideLabel>hemogen pack</overrideLabel>
     <graphicData Class="VisualProgression.GraphicData_FromMod">
       <texPath>Things/Item/Resource/HemogenPack</texPath>
+      <skipMods>
+        <li>sirvan.hemogentexture</li>
+      </skipMods>
       <drawSize>0.85</drawSize>
     </graphicData>
   </ThingStyleDef>
@@ -47,6 +50,9 @@
     <overrideLabel>hemogen pack (animal)</overrideLabel>
     <graphicData Class="VisualProgression.GraphicData_FromMod">
       <texPath>Item/HemogenPacks/HemogenAnimalPack</texPath>
+      <skipMods>
+        <li>sirvan.hemogentexture</li>
+      </skipMods>
       <drawSize>0.85</drawSize>
     </graphicData>
   </ThingStyleDef>
@@ -76,6 +82,9 @@
     <overrideLabel>hemogen pack (corpse)</overrideLabel>
     <graphicData Class="VisualProgression.GraphicData_FromMod">
       <texPath>Item/HemogenPacks/HemogenCorpsePack</texPath>
+      <skipMods>
+        <li>sirvan.hemogentexture</li>
+      </skipMods>
       <drawSize>0.85</drawSize>
     </graphicData>
   </ThingStyleDef>
@@ -105,6 +114,9 @@
     <overrideLabel>hemogen pack (sanguophage)</overrideLabel>
     <graphicData Class="VisualProgression.GraphicData_FromMod">
       <texPath>Item/HemogenPacks/HemogenSanguophagePack</texPath>
+      <skipMods>
+        <li>sirvan.hemogentexture</li>
+      </skipMods>
       <drawSize>0.85</drawSize>
     </graphicData>
   </ThingStyleDef>

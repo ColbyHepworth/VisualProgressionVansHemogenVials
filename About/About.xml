@@ -3,12 +3,12 @@
   <name>Visual Progression: Van's Hemogen Vials</name>
   <author>Groovy</author>
   <packageId>groovy.visualprogression.vanshemogenvials</packageId>
-  <modVersion>1.0</modVersion>
+  <modVersion>1.1</modVersion>
   <url>https://github.com/ColbyHepworth/VisualProgressionVansHemogenVials</url>
   <supportedVersions>
     <li>1.7</li>
   </supportedVersions>
-  <description>Hemogen packs made before your colony reaches the industrial age are Van's hemogen vials. Packs made after are the normal blood bags, named "hemogen pack" again. Old vials keep their look until they're used, so the change happens slowly. With Vanilla Races Expanded - Sanguophage, its animal, corpse and sanguophage packs change the same way.
+  <description>Hemogen packs made before your colony reaches the industrial age are Van's hemogen vials. Packs made after are the normal blood bags, named "hemogen pack" again. A retexture or upscale of the blood bags shows on them. Old vials keep their look until they're used, so the change happens slowly. With Vanilla Races Expanded - Sanguophage, its animal, corpse and sanguophage packs change the same way.
 
 Something has to raise your colony's tech level as you play, such as Vanilla Factions Expanded - Tribals. Without one, your colony stays at the age it starts in, so its packs never change.
 

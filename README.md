@@ -13,9 +13,9 @@ your colony stays at the age it starts in, so its packs never change.
 ## How it works
 
 It lists the hemogen packs for Visual Progression Framework, which gives each pack its look when it's made: Van's vial
-up to the medieval age, the original blood bag from the industrial age on. It's XML only and adds no item art. It
-points at Van's images and at the game's and Vanilla Races Expanded - Sanguophage's own, so another retexture can't
-replace either look.
+up to the medieval age, the blood bag from the industrial age on. It's XML only and adds no item art. The vials always
+come from Van's images. The blood bags come from whichever mod draws them, the game's own or a retexture or upscale of
+them, but never Van's vials.
 
 Packs from hemogen extraction, VRE's extraction jobs and anything else your colony makes get your colony's age. Packs
 that traders sell, and that other factions' pawns carry, follow that faction's age. Packs found on the map, quest
@@ -33,7 +33,7 @@ it.
 
 ## Requirements
 
-Requires [Visual Progression Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3834891951) 1.1 or
+Requires [Visual Progression Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3834891951) 1.4 or
 later and [Van's Retexture : Hemogen Vials](https://steamcommunity.com/sharedfiles/filedetails/?id=3453224032), which
 needs Biotech. [Vanilla Races Expanded - Sanguophage](https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383)
 is optional.
